@@ -1,0 +1,41 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: gray;
+}
+
+h1{
+    color:white;
+    background-color: black;
+    text-align: center;
+    font-weight: bolder;
+}
+
+h2{
+    color:rgb(0, 47, 255);
+    font-weight: bold;
+}
+
+.foto{
+    margin: 0 auto;
+    height: auto;
+}
+
+#subtabla{
+    text-align: center;
+}
+
+.tabla{
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.tabla th{
+    background-color: blue;
+    color: white;
+}
