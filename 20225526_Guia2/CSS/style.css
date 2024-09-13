@@ -62,7 +62,6 @@ article p:first-line{
     font-size: 1.5rem;
 }
 
-article p::first-letter{
-    color: gold;
-    font-size: 1.5rem;
+article:first-child p:first-line{
+    text-decoration: underline;
 }
