@@ -35,3 +35,37 @@ header{
     font-weight: bold;
     text-decoration: underline;
 }
+
+nav{
+    color: white;
+    font-size: 20px;
+}
+
+h3{
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+footer{
+    background-color: chartreuse;
+    font-size: 20px;
+    color: white;
+}
+
+.Ascenso{
+    background-image: url('https://th.bing.com/th/id/OIP.FKSlWeHdJ7Dy7mj7CT57ZQHaHa?w=700&h=700&rs=1&pid=ImgDetMain');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Ascenso p{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+}
+
+.Ascenso img{
+    border-radius: 5px;
+}
