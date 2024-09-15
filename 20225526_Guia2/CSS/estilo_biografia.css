@@ -1,0 +1,37 @@
+html{
+    background-color: rgb(80, 79, 79);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+
+header{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_Ireland.svg/1200px-Flag_of_Ireland.svg.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.Titulo{
+    color: gold;
+    margin: 0;
+}
+
+.autor{
+    color:gold;
+    margin: 0;
+}
+
+#f1{
+    width: 75%;
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.subtitulo{
+    color:aqua;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: underline;
+}
