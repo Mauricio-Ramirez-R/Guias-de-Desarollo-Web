@@ -47,3 +47,8 @@ section article{
     height: 340px;
     width:33.33%;
 }
+
+section article img{
+    height: 180px;
+    max-width: 80%;
+}
