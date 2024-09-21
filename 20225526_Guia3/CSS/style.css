@@ -48,7 +48,9 @@ section{
 section article{
     font-size: 0.9rem;
     height: 340px;
-    width:33.33%;
+    width:32.33%;
+    overflow: hidden;
+    margin: 0.5%;
 }
 
 section article img{
