@@ -49,6 +49,7 @@ section{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    position: relative;
 }
 
 section article{
@@ -65,9 +66,11 @@ section article{
 
 section article:nth-child(2){
     background-color: rgba(70, 130, 180, 0.9);
-    position: absolute;
+    position: static;
     left: 100px;
     top: 50px;
+    visibility: hidden;
+    display: none;
 }
 
 section article img{
