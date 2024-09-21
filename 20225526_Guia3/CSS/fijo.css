@@ -43,3 +43,8 @@ h1{
     line-height: 180%;
     text-align: justify;
 }
+
+#superior img{
+    float: left;
+}
+
