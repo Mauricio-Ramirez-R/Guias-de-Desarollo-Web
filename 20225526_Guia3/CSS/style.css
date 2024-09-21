@@ -25,7 +25,8 @@ footer{
 header div, footer div{
     width: 80%;
     margin: 0 auto;
-    color: white
+    color: white;
+    padding-top: 1rem;
 }
 
 h1{
@@ -36,6 +37,10 @@ h1{
 
 h2{
     font-size: 2rem;
+}
+
+h3{
+    text-align: center;
 }
 
 section{
@@ -56,6 +61,13 @@ section article{
     padding: 1%;
     box-sizing: border-box;
     overflow: hidden;
+}
+
+section article:nth-child(2){
+    background-color: rgba(70, 130, 180, 0.9);
+    position: absolute;
+    left: 100px;
+    top: 50px;
 }
 
 section article img{
