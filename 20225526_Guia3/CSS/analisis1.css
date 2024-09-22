@@ -4,30 +4,30 @@ div{
 
 #diez_de_diamantes{
     z-index: 1;
-    top: 10px;
-    left: 10px;
+    top: 100px;
+    left: 100px;
 }
 
 #sota_de_diamantes{
     z-index: 2;
-    top: 20px;
-    left: 20px;
+    top: 110px;
+    left: 110px;
 }
 
 #reina_de_diamantes{
     z-index: 3;
-    top: 30px;
-    left: 30px;
+    top: 120px;
+    left: 120px;
 }
 
 #rey_de_diamantes{
     z-index: 4;
-    top: 40px;
-    left: 40px;
+    top: 130px;
+    left: 130px;
 }
 
 #as_de_diamantes{
     z-index: 5;
-    top: 50px;
-    left: 50px;
+    top: 140px;
+    left: 140px;
 }
