@@ -16,6 +16,7 @@ header{
     overflow: hidden;
     position: fixed;
     top: 0;
+    width: 100%;
 }
 
 footer{
@@ -24,6 +25,7 @@ footer{
     height: 50px;
     position: fixed;
     bottom: 0;
+    width: 100%;
 }
 
 header div, footer div{
