@@ -44,6 +44,8 @@ h1{
     font-weight: bold;
     line-height: 180%;
     text-align: justify;
+    max-height: 960px;
+    float: left;
 }
 
 #superior #encabezado #logo{
