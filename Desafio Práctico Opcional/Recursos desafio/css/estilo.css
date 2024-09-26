@@ -130,7 +130,7 @@ article.servicios div.envoltorio{
 div.grid{
 	width: 30%;
 	margin: 10% 15px;
-	border: 1px solid grey;
+	border: 1px solid rgb(190, 179, 179);
 	height: 60%;
 	text-align: center;
 }
@@ -141,23 +141,27 @@ div.grid img{
 	height: auto;
 	max-height: 150px;
 	box-sizing: border-box;
-	margin-top: 10px;
+	margin-top: 5px;
 }
 
 div.grid h3{
 	color: rgb(22, 22, 190);
 	font-size: 30px;
+	margin-bottom: 15px;
 }
 
 div.grid p{
-	border-top: 1px solid gray;
-	color: gray;
+	border-top: 1px solid rgb(190, 179, 179);
+	color: rgb(190, 179, 179);
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 div.grid a.botoncito{
-	background-color: blue;
+	background-color: rgb(23, 23, 184);
 	text-decoration: none;
 	color: white;
+	margin-top: 20px;
 }
 
 div.testimonios{
