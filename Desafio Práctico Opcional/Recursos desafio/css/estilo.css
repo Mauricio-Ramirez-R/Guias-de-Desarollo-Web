@@ -177,10 +177,30 @@ div.grid a.botoncito{
 div.testimonios{
 	background-color: rgb(204, 202, 198);
 	display: flex;
+	flex-wrap: wrap;
+	min-height: 200px;
+	padding: 20px;
+}
+
+div.testimonios div.envoltorio{
+	width: 80%;
+	height: auto;
+	margin: auto;
 	text-align: center;
+	padding: 40px 0;
+}
+
+div.testimonios-grid h3{
+	margin-bottom: 15px;
+	font-size: 30px;
+}
+
+div.testimonios-grid p{
+	margin: 10px 0;
 }
 
 footer{
 	background-color:  rgb(70, 68, 68);
 	color: white;
+	min-height: 50px;
 }
