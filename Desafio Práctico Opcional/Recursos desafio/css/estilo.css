@@ -24,7 +24,6 @@ header{
 }
 
 div.logo{
-	border: solid white;
 	float: left;
 	width: 30%;
 	height: 95%;
@@ -35,7 +34,6 @@ div.logo img{
 }
 
 nav{
-	border: solid white;
 	display: flex;
 	flex-wrap: flex;
 	height: 95%;
@@ -69,4 +67,3 @@ nav ul li ul{
 nav ul li:hover ul{
 	display: block;
 }
-
