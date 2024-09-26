@@ -75,6 +75,10 @@ div.contenedor-slider img{
 	border-bottom: 5px solid white;
 }
 
+article.intro div.envoltorio{
+	width: 80%;
+}
+
 article.intro{
 	color: white;
 	background-color:  rgb(37, 68, 206);
@@ -85,6 +89,10 @@ article.intro{
 
 article.intro a{
 	color: white;
+	text-decoration: none;
+}
+article.intro h1{
+	font-size: large;
 }
 
 article.intro span{
