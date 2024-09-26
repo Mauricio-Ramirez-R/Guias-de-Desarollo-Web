@@ -70,6 +70,20 @@ nav ul li:hover ul{
 
 div.contenedor-slider img{
 	width: 100%;
-	border-top: 2px solid blue;
+	border-top: 2px solid  rgb(37, 70, 219);
 	display: block;
+	border-bottom: 5px solid white;
+}
+
+article.intro{
+	color: white;
+	background-color:  rgb(37, 70, 219);
+}
+
+article.intro a{
+	color: white;
+}
+
+article.intro span{
+	background-color: rgb(25, 25, 121);
 }
