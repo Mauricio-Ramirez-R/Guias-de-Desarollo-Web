@@ -35,30 +35,36 @@ div.logo img{
 
 nav{
 	display: flex;
-	flex-wrap: flex;
+	flex-wrap: nowrap;
 	height: 95%;
 }
 
 nav ul{
+	background-color: blue;
 	list-style: none;
 	display: flex;
 	position: relative;
 	height: 100%;
-	margin: auto;
+	margin: 0 auto;
+	width: 80%;
+	padding: 0 10px;
 }
 
 nav ul li{
 	position: relative;
-	padding: 0 20px;
+	padding-left: 20px;
 	height: 100%;
-	display: flex;
+	width: 100%;
+	text-align: center;
+	margin: 0 10px;
 }
 
 nav ul li a{
 	color: white;
 	text-decoration: none;
-	padding: 20px 0;
+	padding: 0;
 	margin: auto;
+	line-height: 95px;
 }
 
 nav ul li ul{
