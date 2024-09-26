@@ -75,11 +75,6 @@ div.contenedor-slider img{
 	border-bottom: 5px solid white;
 }
 
-article.intro div.envoltorio{
-	width: 80%;
-	margin: 10px auto;
-}
-
 article.intro{
 	color: white;
 	background-color:  rgb(37, 68, 206);
@@ -89,18 +84,24 @@ article.intro{
 	text-align: center;
 }
 
+article.intro div.envoltorio{
+	width: 80%;
+	margin: 10px auto;
+}
+
 article.intro a{
 	color: white;
 	text-decoration: none;
 }
 article.intro h1{
-	font-size: large;
-	height: 30%;
+	font-size: 40px;
+	height: 20%;
 	margin: 10px 0;
 	width: 100%;
 }
 
 article.intro p{
+	font-size: 15px;
 	height: 30%;
 	margin: 10px 0;
 	width: 100%;
@@ -108,7 +109,20 @@ article.intro p{
 
 article.intro span{
 	background-color: rgb(19, 19, 95);
-	height: 30%;
+	height: 20%;
 	margin: 10px 0;
 	width: 100%;
+}
+
+article.servicios{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+div.grid{
+	margin: 10px;
+}
+
+div.grid img{
+	height: auto;
 }
