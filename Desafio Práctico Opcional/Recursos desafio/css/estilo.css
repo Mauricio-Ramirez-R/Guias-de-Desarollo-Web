@@ -10,15 +10,14 @@
 
 .envoltorio{
 	overflow: hidden;
-	width:100%;
+	width: 100%;
 	margin:0 auto;
 }
 
 header{
 	background-color: rgb(70, 68, 68);
-	display: flex;
 	width: 100%;
-	overflow: hidden;
+	display: flex;
 }
 
 div.logo{
@@ -29,6 +28,7 @@ div.logo{
 
 nav{
 	border: solid white;
-	float: right;
+	display: flex;
 	width: 65%;
+	flex-wrap: flex;
 }
