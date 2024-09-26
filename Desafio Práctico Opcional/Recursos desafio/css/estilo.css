@@ -67,3 +67,9 @@ nav ul li ul{
 nav ul li:hover ul{
 	display: block;
 }
+
+div.contenedor-slider img{
+	width: 100%;
+	border-top: 2px solid blue;
+	display: block;
+}
