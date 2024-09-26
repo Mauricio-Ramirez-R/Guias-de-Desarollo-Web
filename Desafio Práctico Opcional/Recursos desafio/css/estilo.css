@@ -16,19 +16,20 @@
 
 header{
 	background-color: rgb(70, 68, 68);
-	height: 150px;
+	display: flex;
 	width: 100%;
 }
 
 div.logo{
 	border: solid white;
-	width: 20%;
-	height: 100%;
+	float: left;
 }
 
 nav{
 	border: solid white;
 	float: right;
-	width: 80%;
-	height: 100%;
+}
+
+nav ul{
+	
 }
