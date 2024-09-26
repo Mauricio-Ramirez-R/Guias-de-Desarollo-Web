@@ -53,3 +53,8 @@ nav ul li a{
 	color: white;
 	text-decoration: none;
 }
+
+nav ul li ul{
+	display: none;
+	position: absolute;
+}
