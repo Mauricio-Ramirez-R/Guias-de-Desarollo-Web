@@ -64,6 +64,12 @@ nav ul li a{
 	padding: 0;
 	margin: auto;
 	line-height: 95px;
+	height: 100%;
+	display: block;
+}
+
+nav ul li:hover a{
+	background-color: blue
 }
 
 nav ul li ul{
@@ -227,4 +233,18 @@ footer{
 footer p{
 	margin-top: auto;
 	margin-bottom: auto
+}
+
+article.ofertas{
+	display: flex;
+	height: 500px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+article.ofertas video{
+	max-width: 100%;
+	margin: 20px auto;
+	height: auto;
+	display: block;
 }
