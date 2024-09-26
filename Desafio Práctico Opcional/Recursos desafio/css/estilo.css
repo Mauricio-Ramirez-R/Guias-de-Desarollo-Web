@@ -18,22 +18,25 @@ header{
 	background-color: rgb(70, 68, 68);
 	width: 100%;
 	display: flex;
+	height: 100px;
 }
 
 div.logo{
 	border: solid white;
 	float: left;
 	width: 30%;
+	height: 95%;
 }
 
 div.logo img{
-	margin: 20px 20px 20px 30px;
+	margin: 20px 20px 20px 40px;
 }
 
 nav{
 	border: solid white;
 	display: flex;
 	flex-wrap: flex;
+	height: 95%;
 }
 
 nav ul{
