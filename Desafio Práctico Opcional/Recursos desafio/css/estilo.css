@@ -113,9 +113,11 @@ article.intro p{
 
 article.intro span{
 	background-color: rgb(19, 19, 95);
-	height: 20%;
+	height: auto;
 	margin: 10px 0;
 	width: 100%;
+	text-align: center;
+	padding: 10px 20px;
 }
 
 article.servicios div.envoltorio{
