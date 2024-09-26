@@ -26,6 +26,10 @@ div.logo{
 	width: 30%;
 }
 
+div.logo img{
+	margin: 20px 20px 20px 30px;
+}
+
 nav{
 	border: solid white;
 	display: flex;
