@@ -114,18 +114,27 @@ article.intro span{
 	width: 100%;
 }
 
-article.servicios{
+article.servicios div.envoltorio{
 	display: flex;
 	flex-wrap: wrap;
+	width: 100%;
 }
 
 div.grid{
-	width: 20%;
+	width: 30%;
+	margin: 10px;
+	border: 1px solid black;
 }
 
 div.grid img{
-	width: inherit;
-	height: 150px;
+	width: 100%;
+	height: auto;
+	max-height: 150px;
+}
+
+div.grid h3{
+	color: rgb(22, 22, 190);
+	font-size: 15px;
 }
 
 div.testimonios{
