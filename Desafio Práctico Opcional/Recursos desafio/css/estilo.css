@@ -248,3 +248,12 @@ article.ofertas video{
 	height: auto;
 	display: block;
 }
+
+table.tablita{
+	width: 100%;
+	margin: 20px;
+}
+
+table.tablita, th, td{
+	border: 1px solid black;
+}
