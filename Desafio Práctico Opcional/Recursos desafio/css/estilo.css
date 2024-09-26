@@ -32,3 +32,12 @@ nav{
 	width: 65%;
 	flex-wrap: flex;
 }
+
+nav ul{
+	list-style: none;
+	display: flex;
+}
+
+nav ul li a{
+	color: white;
+}
