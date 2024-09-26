@@ -135,6 +135,14 @@ div.grid{
 	text-align: center;
 }
 
+div.grid:first-child{
+	box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+
+div.grid:last-child{
+	box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+
 div.grid img{
 	padding: 5%;
 	width: 100%;
@@ -153,15 +161,17 @@ div.grid h3{
 div.grid p{
 	border-top: 1px solid rgb(190, 179, 179);
 	color: rgb(190, 179, 179);
-	margin-top: 5px;
-	margin-bottom: 5px;
+	margin-top: 10px;
+	margin-bottom: 20px;
 }
 
 div.grid a.botoncito{
 	background-color: rgb(23, 23, 184);
 	text-decoration: none;
 	color: white;
-	margin-top: 20px;
+	margin-top: auto;
+	margin-bottom: 10px;
+	padding: 10px 20px;
 }
 
 div.testimonios{
