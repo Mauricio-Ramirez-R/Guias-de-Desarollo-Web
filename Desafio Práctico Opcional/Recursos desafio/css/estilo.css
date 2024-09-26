@@ -120,11 +120,19 @@ article.servicios{
 }
 
 div.grid{
-	margin: 10px;
 	width: 20%;
 }
 
 div.grid img{
 	width: inherit;
 	height: 150px;
+}
+
+div.testimonios{
+	background-color: rgb(168, 116, 48);
+}
+
+footer{
+	background-color:  rgb(70, 68, 68);
+	color: white;
 }
