@@ -175,7 +175,9 @@ div.grid a.botoncito{
 }
 
 div.testimonios{
-	background-color: rgb(168, 116, 48);
+	background-color: rgb(204, 202, 198);
+	display: flex;
+	text-align: center;
 }
 
 footer{
