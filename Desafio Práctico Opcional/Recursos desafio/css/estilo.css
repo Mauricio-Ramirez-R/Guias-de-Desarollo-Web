@@ -251,9 +251,20 @@ article.ofertas video{
 
 table.tablita{
 	width: 100%;
-	margin: 20px;
+	margin: 20px auto;
+	border-collapse: collapse;
 }
 
 table.tablita, th, td{
 	border: 1px solid black;
+	font-weight: 400;
+}
+
+table.tablita tr:nth-child(2n){
+	background-color: rgb(216, 215, 215);
+}
+
+table.tablita tr:first-child{
+	color: white;
+	background-color: black;
 }
