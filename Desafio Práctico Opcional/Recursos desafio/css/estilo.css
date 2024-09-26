@@ -10,7 +10,7 @@
 
 .envoltorio{
 	overflow: hidden;
-	width:80%;
+	width:100%;
 	margin:0 auto;
 }
 
@@ -18,18 +18,17 @@ header{
 	background-color: rgb(70, 68, 68);
 	display: flex;
 	width: 100%;
+	overflow: hidden;
 }
 
 div.logo{
 	border: solid white;
 	float: left;
+	width: 30%;
 }
 
 nav{
 	border: solid white;
 	float: right;
-}
-
-nav ul{
-	
+	width: 65%;
 }
