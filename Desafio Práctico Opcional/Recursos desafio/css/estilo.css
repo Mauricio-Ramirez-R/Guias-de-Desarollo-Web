@@ -293,3 +293,22 @@ table.tablita a{
 	display: inline-block;
 	margin: 0 auto;
 }
+
+article.ofertas{
+	display: flex;
+	height: 700px;
+}
+
+article.ofertas table{
+	width: 80%;
+	background-color: rgb(27, 27, 151);
+}
+
+article.ofertas table td{
+	color: white
+}
+
+input{
+	padding: 10px;
+	border: 1px solid black;
+}
