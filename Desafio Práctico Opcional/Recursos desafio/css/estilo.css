@@ -78,8 +78,9 @@ nav ul li ul{
 	display: none;
 	position: absolute;
 	top: 100%;
-	width: 600px;
+	width: 450px;
 	z-index: 200;
+	left: -100px;
 } 
 
 nav ul li ul li a{
