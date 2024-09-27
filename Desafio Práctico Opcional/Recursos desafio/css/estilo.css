@@ -296,19 +296,25 @@ table.tablita a{
 
 article.ofertas{
 	display: flex;
+	flex-wrap: wrap;
 	height: 700px;
+	padding: 20px;
 }
 
 article.ofertas table{
 	width: 80%;
 	background-color: rgb(27, 27, 151);
+	margin: auto;
+	padding: 10px;
 }
 
 article.ofertas table td{
-	color: white
+	color: white;
+	padding: 10px;
 }
 
 input{
 	padding: 10px;
 	border: 1px solid black;
+	width: 100%;
 }
