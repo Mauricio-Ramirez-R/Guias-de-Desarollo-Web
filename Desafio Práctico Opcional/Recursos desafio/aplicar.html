@@ -55,8 +55,14 @@
 						</datalist></td></tr>
 					<tr><td>Fecha de nacimiento:</td><td><input type="date" name="fecha_nacimiento"/></td>
 					<td>Número de telefono:</td><td><input type="text" name="numero_telefono"/></td></tr>
-					<tr><td colspan="1">Carrera:</td><td colspan="3"><input type="text" name="carrera"/></td></tr>
-					<tr><td colspan="1">Pretensión salarial:</td><td colspan="3"><input type="text" name="pretension_salarial"/></td></tr>
+					<tr><td colspan="1">Carrera:</td><td colspan="3"><input type="text" list="carreras"/>
+						<datalist id="carreras">
+							<option value="Ingeniería de Software y Negocios Digitales">Ingeniería de Software y Negocios Digitales</option>
+							<option value="Ingeniería de Negocios">Ingeniería de Negocios</option>
+							<option value="Licenciatura en Economía y Negocios">Licenciatura en Economía y Negocios</option>
+							<option value="Licenciatura en Ciencias Jurídicas">Licenciatura en Ciencias Jurídicas</option>
+						</datalist></td></tr>
+					<tr><td colspan="1">Pretensión salarial:</td><td colspan="3"><input type="number" name="pretension_salarial"/></td></tr>
 				</table>
 			</div>
 		</article>
