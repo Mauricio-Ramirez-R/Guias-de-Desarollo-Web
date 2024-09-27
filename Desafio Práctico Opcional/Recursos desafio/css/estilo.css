@@ -268,3 +268,17 @@ table.tablita tr:first-child{
 	color: white;
 	background-color: black;
 }
+
+table.tablita td{
+	padding: 10px;
+	text-align: center;
+}
+
+table.tablita a{
+	color: white;
+	background-color: rgb(1, 1, 92);
+	text-decoration: none;
+	padding: 10px 20px;
+	display: inline-block;
+	margin: 0 auto;
+}
