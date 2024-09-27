@@ -246,7 +246,7 @@ footer p{
 	margin-bottom: auto
 }
 
-article.ofertas{
+article.ofertas#1{
 	display: flex;
 	height: 500px;
 	width: 100%;
@@ -294,26 +294,26 @@ table.tablita a{
 	margin: 0 auto;
 }
 
-article.ofertas{
+article.ofertas#3{
 	display: flex;
 	flex-wrap: wrap;
 	height: 700px;
 	padding: 20px;
 }
 
-article.ofertas table{
+article.ofertas table.formulario{
 	width: 80%;
 	background-color: rgb(27, 27, 151);
 	margin: auto;
 	padding: 10px;
 }
 
-article.ofertas table td{
+article.ofertas table.formulario td{
 	color: white;
 	padding: 10px;
 }
 
-article.ofertas table thead{
+article.ofertas table.formulario thead{
 	color: white;
 	padding: 10px;
 	text-align: center;
