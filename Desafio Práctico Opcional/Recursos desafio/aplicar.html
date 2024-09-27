@@ -46,9 +46,14 @@
 						<option value="Usulután">Usulután</option>
 						<option value="La Unión">La Unión</option>
 					</datalist></td></tr>
-					<tr><td>Edad:</td><td><input type="text" name="edad"/></td>
-					<td>Género:</td><td><input type="text" name="genero"/></td></tr>
-					<tr><td>Fecha de nacimiento:</td><td><input type="text" name="fecha_nacimiento"/></td>
+					<tr><td>Edad:</td><td><input type="number" name="edad" min="21" max="65"/></td>
+					<td>Género:</td><td><input type="text" list="generos"/>
+						<datalist id="generos">
+							<option value="hombre">Hombre</option>
+							<option value="mujer">Mujer</option>
+							<option value="otro">Otro</option>
+						</datalist></td></tr>
+					<tr><td>Fecha de nacimiento:</td><td><input type="date" name="fecha_nacimiento"/></td>
 					<td>Número de telefono:</td><td><input type="text" name="numero_telefono"/></td></tr>
 					<tr><td colspan="1">Carrera:</td><td colspan="3"><input type="text" name="carrera"/></td></tr>
 					<tr><td colspan="1">Pretensión salarial:</td><td colspan="3"><input type="text" name="pretension_salarial"/></td></tr>
