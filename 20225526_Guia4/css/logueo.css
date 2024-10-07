@@ -3,22 +3,22 @@
 
 * {
   margin: 0;
-  padding: 0
+  padding: 0;
 }
 
 body {
   background: #294072;
-  font-family: 'Source Sans Pro', sans-serif
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .form {
   width: 400px;
   margin: 0 auto;
   background: #1C2B4A;
-  margin-top: 150px
+  margin-top: 150px;
 }
 
-header{
+.header{
     height: 44px;
     background: #17233B;
 }
