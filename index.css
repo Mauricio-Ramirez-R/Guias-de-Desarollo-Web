@@ -9,9 +9,15 @@ header {
     left: 0;
 }
 
+section.biografia{
+    background-color: rgb(153, 152, 152);
+    color: white;
+    font-size: 20px;
+    padding-top: 100px;
+}
+
 section.apartado_de_guias {
     background-color: rgb(126, 255, 238);
-    padding-top: 150px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
