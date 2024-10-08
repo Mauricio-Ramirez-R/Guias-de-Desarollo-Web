@@ -2,6 +2,9 @@ header {
     background-color: rgb(0, 204, 68);
     color: white;
     text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
 }
 
 body {
@@ -12,4 +15,18 @@ article.guias{
     background-color: rgb(0, 255, 55);
     border-radius: 8px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2{
+    color: white;
+}
+
+
+ol li a{
+    text-decoration: none;
+    color: white;
+}
+
+ol li a:hover{
+    background-color: blue;
 }
