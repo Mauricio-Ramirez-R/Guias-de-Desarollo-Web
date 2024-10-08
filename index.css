@@ -7,6 +7,7 @@ header {
     z-index: 100;
     top: 0;
     left: 0;
+    border: 5px solid black;
 }
 
 section.biografia{
@@ -18,13 +19,24 @@ section.biografia{
     margin: 0;
 }
 
+section.biografia div{
+    padding: 30px;
+    border: 3px solid rgb(192, 192, 192);
+}
+
+section.biografia img{
+    border: 2px solid black;
+}
+
 section.descripcion_Curso{
-    background-color: bisque;
+    background-color: rgb(117, 255, 163);
     color: black;
     font-size: 20px;
     width: 100%;
     margin: 0;
     padding: 20px 0;
+    text-align: center;
+    border: 2px solid green;
 }
 
 section.apartado_de_guias {
@@ -41,7 +53,7 @@ article.estilo_del_indice{
     color: white;
     width: 65%;
     border-radius: 8px;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 10px rgba(255, 0, 234, 0.575);
     margin: 20px 0;
     padding: 20px;
     text-align: center;
@@ -84,6 +96,7 @@ section.apartado_de_preguntas{
     background-color: rgb(22, 112, 247);
     width: 100%;
     border: 5px solid blue;
+    padding: 10px;
 }
 
 section.apartado_de_preguntas h2{
