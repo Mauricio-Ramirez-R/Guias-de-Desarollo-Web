@@ -79,3 +79,11 @@ ol li a{
 ol li a:hover{
     background-color: blue;
 }
+
+section.apartado_de_preguntas{
+
+}
+
+section.apartado_de_preguntas h2{
+    color: black;
+}
