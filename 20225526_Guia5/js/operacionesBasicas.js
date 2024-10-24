@@ -22,8 +22,10 @@ let resultado;
 function sumar() {
     let numero1 = prompt("Ingrese el primer numero a sumar");
     let numero2 = prompt("Ingrese el segundo numero a sumar");
-    resultado = numero1 + numero2;
-    parrafo.innerHTML = `${numero1} + ${numero2} = ${resultado}`;
+    let Numero1 = Number(numero1);
+    let Numero2 = Number(numero2);
+    resultado = Numero1 + Numero2;
+    parrafo.innerHTML = `${Numero1} + ${Numero2} = ${resultado}`;
 }
 
 function restar() {
