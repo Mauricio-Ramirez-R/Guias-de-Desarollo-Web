@@ -31,16 +31,16 @@ el boton limpiar del formulario
 */
 
 const limpiarForm = () => {
-    inputNombre.value = "";
-    inputApellido.value = "";
-    inputFechaNacimiento.value = "";
-    inputMasculino.checked = false;
-    inputFemenino.checked = false;
-    cmbPais.value = 0;
-    inputDireccion.value = "";
-    inputNombrePais.value = "";
+  inputNombre.value = "";
+  inputApellido.value = "";
+  inputFechaNacimiento.value = "";
+  inputMasculino.checked = false;
+  inputFemenino.checked = false;
+  cmbPais.value = 0;
+  inputDireccion.value = "";
+  inputNombrePais.value = "";
 
-    inputNombre.focus();
+  inputNombre.focus();
 };
 
 /*
@@ -48,54 +48,54 @@ Funcion para validar el ingreso del paciente
 */
 
 const addPaciente = function () {
-    let nombre = inputNombre.value;
-    let apellido = inputApellido.value;
-    let fechaNacimiento = inputFechaNacimiento.value;
-    let sexo =
-        inputMasculino.checked === true
-            ? "Hombre"
-            : inputFemenino.checked === true
-                ? "Mujer"
-                : "";
-    let pais = cmbPais.value;
-    let labelPais = cmbPais.options[cmbPais.selectedIndex].text;
-    let direccion = inputDireccion.value;
+  let nombre = inputNombre.value;
+  let apellido = inputApellido.value;
+  let fechaNacimiento = inputFechaNacimiento.value;
+  let sexo =
+    inputMasculino.checked === true
+      ? "Hombre"
+      : inputFemenino.checked === true
+        ? "Mujer"
+        : "";
+  let pais = cmbPais.value;
+  let labelPais = cmbPais.options[cmbPais.selectedIndex].text;
+  let direccion = inputDireccion.value;
 
-    if (
-        nombre != "" &&
-        apellido != "" &&
-        fechaNacimiento != "" &&
-        sexo != "" &&
-        pais != 0 &&
-        direccion != ""
-    ) {
-        //Agregando informacion al arreglo paciente
-        arrayPacientes.push(
-            new Array(nombre, apellido, fechaNacimiento, sexo, labelPais, direccion)
-        );
+  if (
+    nombre != "" &&
+    apellido != "" &&
+    fechaNacimiento != "" &&
+    sexo != "" &&
+    pais != 0 &&
+    direccion != ""
+  ) {
+    //Agregando informacion al arreglo paciente
+    arrayPacientes.push(
+      new Array(nombre, apellido, fechaNacimiento, sexo, labelPais, direccion)
+    );
 
-        //Asignando un mensaje a nuestra notificación
-        mensaje.innerHTML = "Se ha registrado un nuevo paciente";
-        //Llamando al componente de Bootstrap
-        toast.show();
+    //Asignando un mensaje a nuestra notificación
+    mensaje.innerHTML = "Se ha registrado un nuevo paciente";
+    //Llamando al componente de Bootstrap
+    toast.show();
 
-        //limpiando formulario
-        limpiarForm();
-    } else {
-        //Asignando un mensaje a nuestra notificación
-        mensaje.innerHTML = "Faltan campos por completar";
-        //Llamando al componente de Bootstrap
-        toast.show();
-    }
+    //limpiando formulario
+    limpiarForm();
+  } else {
+    //Asignando un mensaje a nuestra notificación
+    mensaje.innerHTML = "Faltan campos por completar";
+    //Llamando al componente de Bootstrap
+    toast.show();
+  }
 };
 
 //Funcion que imprime la ficha de los pacientes registrados
 function imprimirFilas() {
-    let $fila = "";
-    let contador = 1;
+  let $fila = "";
+  let contador = 1;
 
-    arrayPacientes.forEach((element) => {
-        $fila += `<tr>
+  arrayPacientes.forEach((element) => {
+    $fila += `<tr>
       <td scope="row" class="text-center fw-bold">${contador}</td>
       <td>${element[0]}</td>
       <td>${element[1]}</td>
@@ -112,13 +112,13 @@ function imprimirFilas() {
       </button>
       </td>
       </tr>`;
-        contador++;
-    });
-    return $fila;
+    contador++;
+  });
+  return $fila;
 }
 
 const imprimirPacientes = () => {
-    let $table = `<div class="table-responsive">
+  let $table = `<div class="table-responsive">
         <table class="table table-striped table-hover table-bordered">
             <tr>
                 <th scope="col" class="text-center" style="width:5%">#</th>
@@ -134,7 +134,7 @@ const imprimirPacientes = () => {
         </table>
     </div>
     `;
-document.getElementById("idTablaPacientes").innerHTML = $table;
+  document.getElementById("idTablaPacientes").innerHTML = $table;
 };
 
 // Contador global de los option correspondiente
