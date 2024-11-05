@@ -157,7 +157,7 @@ const newRadioCheckbox = function (newElemento) {
 
   // AGREGANDO EVENTO CLIC A LOS BOTONES
 buttonCrear.onclick = () => {
-    vericarTipoElemento();
+    verificarTipoElemento();
   };
 
   buttonAddElemento.onclick = () => {
