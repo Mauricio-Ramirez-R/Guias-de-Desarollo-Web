@@ -1,7 +1,7 @@
 // OBTENIENDO LA REFERENCIA DE LOS BOTONES
 // POR MEDIO DEL .getElementById
 
-const buttonSpan = document.getElementByIdO("idBtnSpan");
+const buttonSpan = document.getElementById("idBtnSpan");
 const buttonP = document.getElementById("idBtnP");
 const buttonDiv = document.getElementById("idBtnDiv");
 const buttonButton = document.getElementById("idBtnButton");
