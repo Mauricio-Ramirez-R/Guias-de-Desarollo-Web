@@ -36,42 +36,42 @@ const recorrerFormulario = function () {
         let tipoNodo = elemento.nodeName;
 
         // Contabilizando el total de INPUT TYPE = TEXT
-        if (tipoElemento == "text" && tipoNode == "INPUT") {
+        if (tipoElemento == "text" && tipoNodo == "INPUT") {
             console.log(elemento);
             totText++;
         }
         // Contabilizando el total de INPUT TYPE PASSWORD
-        else if (tipoElemento == "password" && tipoNode == "INPUT") {
+        else if (tipoElemento == "password" && tipoNodo == "INPUT") {
             console.log(elemento);
             totPass++;
         }
         // Contabilizando el total de INPUT TYPE EMAIL
-        else if (tipoElemento == "email" && tipoNode == "INPUT") {
+        else if (tipoElemento == "email" && tipoNodo == "INPUT") {
             console.log(elemento);
             totEmail++;
         }
         // Contabilizando el total de INPUT TYPE = RADIO
-        else if (tipoElemento == "radio" && tipoNode == "INPUT") {
+        else if (tipoElemento == "radio" && tipoNodo == "INPUT") {
             console.log(elemento);
             totRadio++;
         }
         // Contabilizando el total de INPUT TYPE CHECKBOX
-        else if (tipoElemento == "checkbox" && tipoNode == "INPUT") {
+        else if (tipoElemento == "checkbox" && tipoNodo == "INPUT") {
             console.log(elemento);
             totCheck++;
         }
         // Contabilizando el total de INPUT TYPE FILE
-        else if (tipoElemento == "file" && tipoNode == "INPUT") {
+        else if (tipoElemento == "file" && tipoNodo == "INPUT") {
             console.log(elemento);
             totFile++;
         }
         // Contabilizando el total de INPUT TYPE = CHECKBOX
-        else if (tipoElemento == "date" && tipoNode == "INPUT") {
+        else if (tipoElemento == "date" && tipoNodo == "INPUT") {
             console.log(elemento);
             totDate++;
         }
         // Contabilizando el total de INPUT TYPE - EMAIL
-        else if (tipoNode == "SELECT") {
+        else if (tipoNodo == "SELECT") {
             console.log(elemento);
             totSelect++;
         }
