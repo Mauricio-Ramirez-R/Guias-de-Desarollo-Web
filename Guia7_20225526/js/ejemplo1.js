@@ -34,11 +34,10 @@ const verificarTipoElemento = function () {
     }
 };
 
-// Función para validar que los campos estén completos
+// Funcion para validar que no queden campos vacios
 const validarCampos = function () {
     let mensaje = "No hay campos vacios";
 
-    // Recorriendo cada elemento del formulario y verificando que esté completo
     for (const element of newForm.querySelectorAll("input, select, textarea")) {
         if ((element.type === "text" || element.tagName === "TEXTAREA") && element.value.trim() === "") {
             mensaje = `El campo "${element.id}" esta vacio`;
@@ -162,7 +161,7 @@ const newInput = function (newElemento) {
         return;
     }
 
-    // Creando elementos de tipo = text, number, date y password
+    // Creando elementos de tipo = text, number, date, password,+ color y email
     let addElemento =
       newElemento == "textarea"
         ? document.createElement("textarea")
@@ -237,4 +236,5 @@ document.getElementById("idModal").addEventListener("shown.bs.modal", () => {
     nombreElemento.value = "";
     // inicializando puntero en el campo del titulo para el control
     tituloElemento.focus();
-});
+}
+);
