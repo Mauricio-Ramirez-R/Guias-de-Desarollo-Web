@@ -16,6 +16,11 @@ const nombreElemento = document.getElementById("idNombreElemento");
 // CREANDO MODAL CON BOOTSTRAP
 const modal = new bootstrap.Modal(document.getElementById("idModal"), {});
 
+// para validar si los id son unicos, y esto meterlo en los verificadores 
+const validarID = function (id) {
+    return !document.getElementById(id);
+};
+
 //AGREGANDO FUNCIONES
 const verificarTipoElemento = function () {
     let elemento = cmbElemento.value;
@@ -28,7 +33,14 @@ const verificarTipoElemento = function () {
     }
 };
 
+ //verificador de ID
 const newSelect = function (){
+    const idElemento = `id${nombreElemento.value}`;
+    if (!validarID(idElemento)) {
+        alert("Ese ID ya existe, por favor ponga otro ID");
+        return;
+    }
+    
     //Creando elementos
     let addElemento = document.createElement("select");
     //creando atributos para el nuevo elemento 
@@ -70,7 +82,14 @@ newForm.appendChild(labelId);
 newForm.appendChild(divElemento);
 };
 
+ //verificador de ID
 const newRadioCheckbox = function (newElemento) {
+    const idElemento = `id${nombreElemento.value}`;
+    if (!validarID(idElemento)) {
+        alert("Ese ID ya existe, por favor ponga otro ID");
+        return;
+    }
+
     // Creando elementos
     let addElemento = document.createElement("input");
     //creando atributos para el nuevo elemento
@@ -106,7 +125,14 @@ const newRadioCheckbox = function (newElemento) {
     newForm.appendChild(divElemento);
   };
 
+  //verificador de ID
   const newInput = function (newElemento) {
+    const idElemento = `id${nombreElemento.value}`;
+    if (!validarID(idElemento)) {
+        alert("Ese ID ya existe, por favor ponga otro ID");
+        return;
+    }
+
     // Creando elementos de tipo = text, number, date y password
     let addElemento =
       newElemento == "textarea"
