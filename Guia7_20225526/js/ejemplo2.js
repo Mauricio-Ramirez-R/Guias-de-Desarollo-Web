@@ -77,7 +77,7 @@ const recorrerFormulario = function () {
         }
     }
 
-    let resultado =` 
+    let resultado =`
         Total de input[type="text"] = ${totText}<br>
         Total de input[type="password"] = ${totPass}<br>
         Total de input[type="radio"] = ${totRadio}<br>
@@ -93,7 +93,57 @@ const recorrerFormulario = function () {
     modal.show();
 };
 
-//agregando eventos al boton
-button.onclick = () => {
-    recorrerFormulario();
-}
+// validando el formulario
+const validarFormulario = () => {
+    const errores = [];
+    const fechaActual = new Date();
+
+    // verificar campos que esten vacios
+    Array.from(formulario.elements).forEach((elemento) => {
+        if (["text", "password", "email", "date"].includes(elemento.type) && elemento.value.trim() === "") {
+            errores.push(`el campo ${elemento.name} no puede quedar vacio, por favor llenelo`);
+        }
+    });
+
+    // verificar fecha de nacimiento
+    const fechaNacimiento = formulario.elements["fechaNacimiento"];
+    if (fechaNacimiento && new Date(fechaNacimiento.value) > fechaActual) {
+        errores.push("La fecha de naciemiento no es valida");
+    }
+
+    // verificar email 
+    const email = formulario.elements["email"];
+    if (email && !/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/.test(email.value)) {
+        errores.push("ese correo electronico no es aceptable");
+    }
+
+    // verificqar contraseñas 
+    const password = formulario.elements["password"];
+    const repetirPassword = formulario.elements["repetirPassword"];
+    if (password && repetirPassword && password.value !== repetirPassword.value) {
+        errores.push("Las contraseñas no son iguales");
+    }
+
+    // verificar interes
+    const intereses = formulario.querySelectorAll('input[name="intereses"]:checked');
+    if (intereses.length === 0) {
+        errores.push("debe seleccionar al menos un interes.");
+    }
+
+    // verificar carrera y pais
+    if (!formulario.elements["carrera"].value) errores.push("seleccione una carrera por favor");
+    if (!formulario.elements["pais"].value) errores.push("seleccione un pais por favor");
+
+    if (errores.length > 0) {
+        bodyModal.innerHTML = errores.join("<br>");
+        modal.show();
+    } else {
+        recorrerFormulario();
+    }
+};
+
+// agregando evento
+button.onclick = (event) => {
+    event.preventDefault();
+    validarFormulario();
+};
